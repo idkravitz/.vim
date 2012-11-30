@@ -1,6 +1,7 @@
 ## About
 
 This is my vim configuration, based on [Vundle] package manager
+![vimrc-screenshot](https://dl.dropbox.com/u/2725779/vim.png)
 
 ## Installation
 
