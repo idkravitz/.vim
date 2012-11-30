@@ -7,7 +7,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
-source bundles.vim
+source ~/.vim/bundles.vim
 
 filetype plugin indent on     " required!
 "
@@ -21,6 +21,6 @@ filetype plugin indent on     " required!
 " NOTE: comments after Bundle command are not allowed..
 "
 
-source colors.vim
-source custom.vim
+source ~/.vim/colors.vim
+source ~/.vim/custom.vim
 
