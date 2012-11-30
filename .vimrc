@@ -23,3 +23,4 @@ filetype plugin indent on     " required!
 
 source colors.vim
 source custom.vim
+
