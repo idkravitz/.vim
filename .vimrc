@@ -1,6 +1,7 @@
 filetype off
 
 set rtp+=/etc/.vim/bundle/vundle/
+set rtp+=/etc/.vim
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
