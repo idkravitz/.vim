@@ -1,5 +1,6 @@
 filetype off
 
+set rtp+=/etc/.vim/bundle/vundle/
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -7,7 +8,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
-source ~/.vim/bundles.vim
+runtime bundles.vim
 
 filetype plugin indent on     " required!
 "
@@ -21,6 +22,6 @@ filetype plugin indent on     " required!
 " NOTE: comments after Bundle command are not allowed..
 "
 
-source ~/.vim/colors.vim
-source ~/.vim/custom.vim
+runtime colors.vim
+runtime custom.vim
 
